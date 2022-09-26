@@ -71,4 +71,10 @@
   .position{
     font-size: 14px;
   }
+  .container{
+    margin: 10px;
+  }
+  .content{
+    padding: 5px;
+  }
 }

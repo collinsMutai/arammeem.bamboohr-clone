@@ -1,3 +1,4 @@
+
 .container {
     color: #000;
     margin: 50px;
@@ -52,7 +53,6 @@
 .social{
   display: flex;
   gap: 20px;
-  padding-top: 20px;
 }
 .sidebar-bottom-text p{
   width: 350px;
@@ -67,3 +67,13 @@
 .sub-title{
   opacity: 0.5;
 }
+
+ 
+
+/* 
+    "src/styles.css",
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "node_modules/ngx-sharebuttons/themes/circles.scss",
+              "node_modules/ngx-sharebuttons/themes/modern.scss",
+              "src/styles.scss" */

@@ -1,0 +1,37 @@
+{
+    "data":[
+    {
+        "id":0,
+        "tag":"Business Development",
+        "title":"Customer Care Agent (Saudi only)",
+        "position":"Customer Care · Riyadh, KSA",
+        "paragraphone":"At Aram Meem, we rely on our talented team of professionals to interact with our valued customers in order to assist them with any questions or concerns.",
+        "paragraphtwo":"The ideal profile is a highly skilled call center Agent with solid experience in managing a high volume of inbound and outbound calls and communication with customers via other means such as chat, email, etc. As the voice of our company, the call center rep must be an excellent communicator, enthusiastic with an impeccable sense of driving customer satisfaction.",
+        "role":"Role responsibilities:"
+
+
+    },
+    {
+        "id":1,
+        "tag":"Call Center",
+        "title":"Business Development Manager ( For Saudi Only)",
+        "position":"Customer Care · Riyadh, KSA",
+        "paragraphone":"At Aram Meem, we rely on our talented team of professionals to interact with our valued customers in order to assist them with any questions or concerns.",
+        "paragraphtwo":"The ideal profile is a highly skilled call center Agent with solid experience in managing a high volume of inbound and outbound calls and communication with customers via other means such as chat, email, etc. As the voice of our company, the call center rep must be an excellent communicator, enthusiastic with an impeccable sense of driving customer satisfaction.",
+        "role":"Role responsibilities:"
+
+
+    },
+    {   
+        "id":2,
+        "tag":"Customer Care",
+        "title":"Representatives Care Call Agents (Saudi only)",
+        "position":"Customer Care · Riyadh, KSA",
+        "paragraphone":"At Aram Meem, we rely on our talented team of professionals to interact with our valued customers in order to assist them with any questions or concerns.",
+        "paragraphtwo":"The ideal profile is a highly skilled call center Agent with solid experience in managing a high volume of inbound and outbound calls and communication with customers via other means such as chat, email, etc. As the voice of our company, the call center rep must be an excellent communicator, enthusiastic with an impeccable sense of driving customer satisfaction.",
+        "role":"Role responsibilities:"
+
+
+    }
+    ]
+}

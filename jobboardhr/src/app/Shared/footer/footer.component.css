@@ -1,6 +1,6 @@
 .container{
     background-color: #fff;
-   
+    max-width: 100vw;
 }
 .content{
     display: flex;
@@ -19,4 +19,5 @@
     .copyright{
         flex-wrap: wrap;
     }
+    
 }

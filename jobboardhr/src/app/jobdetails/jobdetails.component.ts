@@ -8,7 +8,8 @@ import { Router } from '@angular/router';
 })
 export class JobdetailsComponent implements OnInit {
   value = true;
-
+  url = "https://arammeem.bamboohr.com/jobs"
+  
   constructor(private router:Router) {}
 
   ngOnInit(): void {}

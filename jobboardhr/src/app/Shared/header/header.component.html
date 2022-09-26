@@ -1,12 +1,18 @@
 <div class="container">
-    <div class="content">
-        <div class="logo">
-            <a href="/">JobBoardHR</a>
-        </div>
-        <div class="social">
-            <p>LinkedIn</p>
-            <p>Twitter</p>
-            <p>Facebook</p>
-        </div>
+  <div class="content">
+    <div class="logo">
+      <a href="/">JobBoardHR</a>
     </div>
+    <div class="social">
+      <share-buttons
+        [theme]="'circles-dark'"
+        [include]="['linkedin', 'twitter', 'facebook']"
+        [showIcon]="true"
+        [showText]="true"
+        url="{{ jobs }}"
+        sharerTarget="_blank"
+      >
+      </share-buttons>
+    </div>
+  </div>
 </div>

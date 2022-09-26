@@ -10,6 +10,11 @@ import { JobdetailsComponent } from './jobdetails/jobdetails.component';
 import { JobdescriptionComponent } from './jobdescription/jobdescription.component';
 import { ApplicationformComponent } from './applicationform/applicationform.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ShareButtonsModule } from 'ngx-sharebuttons/buttons';
+import { ShareIconsModule } from 'ngx-sharebuttons/icons';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +29,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     SharedModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ShareButtonsModule,
+    ShareIconsModule,
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

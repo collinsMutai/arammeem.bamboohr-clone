@@ -10,7 +10,7 @@ import { ApplicationformComponent } from '../applicationform/applicationform.com
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   {
-    path: 'job-details',
+    path: 'job-details/:id',
     component: JobdetailsComponent,
     children: [
       { path: '', component: JobdescriptionComponent },
