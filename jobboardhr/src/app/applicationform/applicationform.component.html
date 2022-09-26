@@ -1,0 +1,213 @@
+<div class="container">
+  <div class="content">
+    <h3>Apply for this Position</h3>
+    <div class="form">
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div *ngIf="!form.get('fname')!.valid && form.get('fname')!.touched">
+          <p
+            class="error"
+            *ngIf="
+              form.get('fname')!.errors!['required'] &&
+              form.get('fname')!.touched
+            "
+          >
+            *Please enter your first name
+          </p>
+        </div>
+        <div *ngIf="!form.get('lname')!.valid && form.get('lname')!.touched">
+          <p
+            class="error"
+            *ngIf="
+              form.get('lname')!.errors!['required'] &&
+              form.get('lname')!.touched
+            "
+          >
+            *Please enter your last name
+          </p>
+        </div>
+        <div class="form-control">
+          <input
+            type="text"
+            formControlName="fname"
+            placeholder="First Name*"
+            class="form-control"
+          />
+
+          <input
+            type="text"
+            formControlName="lname"
+            placeholder="Last Name*"
+            class="form-control"
+          />
+        </div>
+        <div *ngIf="!form.get('email')!.valid && form.get('email')!.touched">
+          <p
+            class="error"
+            *ngIf="
+              form.get('email')!.errors!['email'] && form.get('email')!.touched
+            "
+          >
+            *Please enter a valid email
+          </p>
+          <p
+            class="error"
+            *ngIf="
+              form.get('email')!.errors!['required'] &&
+              form.get('email')!.touched
+            "
+          >
+            *Please enter email
+          </p>
+        </div>
+        <div class="form-control">
+          <input
+            type="email"
+            formControlName="email"
+            placeholder="Email*"
+            class="form-control"
+          />
+        </div>
+        <div *ngIf="!form.get('phone')!.valid && form.get('phone')!.touched">
+            <p
+              class="error"
+              *ngIf="
+                form.get('phone')!.errors!['required'] &&
+                form.get('phone')!.touched
+              "
+            >
+              *Please enter your phone
+            </p>
+          </div>
+        <div class="form-control">
+          <input
+            type="phone"
+            formControlName="phone"
+            placeholder="Phone*"
+            class="form-control"
+          />
+        </div>
+        <div *ngIf="!form.get('address')!.valid && form.get('address')!.touched">
+            <p
+              class="error"
+              *ngIf="
+                form.get('address')!.errors!['required'] &&
+                form.get('address')!.touched
+              "
+            >
+              *Please enter your address
+            </p>
+          </div>
+        <div class="form-control">
+          <input
+            type="text"
+            formControlName="address"
+            placeholder="Address*"
+            class="form-control"
+          />
+        </div>
+        <div *ngIf="!form.get('city')!.valid && form.get('city')!.touched">
+            <p
+              class="error"
+              *ngIf="
+                form.get('city')!.errors!['required'] &&
+                form.get('city')!.touched
+              "
+            >
+              *Please enter your city
+            </p>
+          </div>
+          <div *ngIf="!form.get('province')!.valid && form.get('province')!.touched">
+            <p
+              class="error"
+              *ngIf="
+                form.get('province')!.errors!['required'] &&
+                form.get('province')!.touched
+              "
+            >
+              *Please enter your province
+            </p>
+          </div>
+          <div *ngIf="!form.get('postalcode')!.valid && form.get('postalcode')!.touched">
+            <p
+              class="error"
+              *ngIf="
+                form.get('postalcode')!.errors!['required'] &&
+                form.get('postalcode')!.touched
+              "
+            >
+              *Please enter your postal code
+            </p>
+          </div>
+        <div class="form-control">
+            <input
+              type="text"
+              formControlName="city"
+              placeholder="City*"
+              class="form-control"
+            />
+  
+            <input
+              type="text"
+              formControlName="province"
+              placeholder="Province*"
+              class="form-control"
+            />
+            <input
+              type="text"
+              formControlName="postalcode"
+              placeholder="Postal Code*"
+              class="form-control"
+            />
+          </div>
+          <p>Date Available*</p>
+          <div class="form-control">
+            <input
+              type="date"
+              formControlName="date"
+              class="form-control"
+            />
+          </div>
+          <div class="form-control">
+            <input
+              type="text"
+              formControlName="pay"
+              placeholder="Desired Pay*"
+              class="form-control"
+            />
+          </div>
+          <p>Are you a Saudi citizen?*</p>
+          <div class="form-control radio">
+            <input
+            id="yes"
+              type="radio"
+              value="yes"
+              formControlName="yes"
+              placeholder=""
+              class="form-control"
+            />
+            <label for="yes">Yes</label>
+            <input
+            id="no"
+              type="radio"
+              value="no"
+              formControlName="no"
+              placeholder=""
+              class="form-control"
+            />
+            <label for="no">No</label>
+           
+
+          </div>
+          <div class="form-control">
+            <textarea
+              type="text"
+              formControlName="info"
+              placeholder="Is there any other information you would like to share with us?"
+              class="form-control"
+            ></textarea>
+          </div>
+        <button [disabled]="!form.valid" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>

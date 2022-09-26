@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="content">
+    <div class="heading">
+      <p routerLink="/"><-- Job Openings</p>
+      <h1>Business Development Manager (For Saudi Only)</h1>
+      <p>
+        Business Development. Various cities: Jazan, Mecca, Dammam, Yanbou, KSA
+      </p>
+    </div>
+    <hr />
+    <router-outlet></router-outlet>
+  </div>
+  <div>
+    
+
+  <div class="sidebar">
+    <div class="sidebar-content">
+      <button><a id="apply" (click)="toggleDetails()">Apply for This Job</a></button>
+
+      <div class="input">
+        <label for="">Link to this job</label>
+        <input
+          type="text"
+          value="http://localhost:4200/job-details/apply"
+        />
+      </div>
+      <div class="social">
+        <p>LinkedIn</p>
+        <p>Twitter</p>
+        <p>Facebook</p>
+      </div>
+    </div>
+</div>
+<div class="sidebar-bottom">
+    <div class="sidebar-bottom-text">
+        <p class="sub-title">Location</p>
+        <p>Various cities: Jazan, Mecca, Dammam, Yanbou, KSA</p>
+    </div>
+    <hr>
+    <div class="sidebar-bottom-text">
+        <p class="sub-title">Department</p>
+        <p>Business</p>
+    </div>
+    <hr>
+    <div class="sidebar-bottom-text">
+        <p class="sub-title">Minimum-Experience</p>
+        <p>Mid-level</p>
+    </div>
+    <hr>
+</div>
+</div>
+</div>
